@@ -1,0 +1,23 @@
+@media (max-width: $screen-xs-max) { 
+    /*.logo{
+        width:46px;
+        overflow: hidden;
+    }*/
+    .table-wrap{
+        overflow-x: scroll;
+        table{
+            min-width:700px; 
+        }
+    }
+
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { 
+
+}
+@media (min-width: $screen-lg-min) { 
+
+}

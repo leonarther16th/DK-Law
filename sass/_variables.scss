@@ -1,0 +1,36 @@
+/*color variable
+==============*/
+
+$light-gray : #f9fafc;
+
+
+
+$body-bg : $light-gray;
+$text-color: #666666;
+$primary-color: #2f81b9;
+$secondary-color: #18bc9c;
+$darken-primary-color: #172f41;
+$bg-leftpanel   :$darken-primary-color;
+$bg-table-head   :#6e99b7;
+
+//font - opensans
+$basic-font: 'Open Sans', sans-serif;
+
+//additional Mixins
+@mixin background-size($type) {
+  background-size: ($type);
+  -moz-background-size: ($type);
+  -webkit-background-size: ($type); 
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+@mixin transition-all($time){
+    -webkit-transition: all $time ease-in-out;
+    -moz-transition: all $time ease-in-out;
+    -o-transition: all $time ease-in-out;
+    transition: all $time ease-in-out;
+}
