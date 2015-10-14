@@ -128,13 +128,10 @@ header.navbar.navbar-default{
     }
     th, td{
         padding:12px 15px;
-        color:#2a2a2c;
-        font-size:15px;
+        color:$text-color;
+        //font-size:15px;
     }
-    tr td:nth-child(2){
-        font-weight:700;
-		color: $text-color;
-    }
+    
     td{
         border-bottom:1px solid #ecf0f1;
     }

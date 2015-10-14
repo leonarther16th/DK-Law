@@ -8936,42 +8936,36 @@ header.navbar.navbar-default {
 /* line 129, ../sass/_layout.scss */
 .table-wrap th, .table-wrap td {
   padding: 12px 15px;
-  color: #2a2a2c;
-  font-size: 15px;
-}
-/* line 134, ../sass/_layout.scss */
-.table-wrap tr td:nth-child(2) {
-  font-weight: 700;
   color: #666666;
 }
-/* line 138, ../sass/_layout.scss */
+/* line 135, ../sass/_layout.scss */
 .table-wrap td {
   border-bottom: 1px solid #ecf0f1;
 }
-/* line 141, ../sass/_layout.scss */
+/* line 138, ../sass/_layout.scss */
 .table-wrap thead tr th {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 146, ../sass/_layout.scss */
+/* line 143, ../sass/_layout.scss */
 .table-wrap thead tr:first-child {
   background: #2f81b9;
   font-size: 16px;
 }
-/* line 149, ../sass/_layout.scss */
+/* line 146, ../sass/_layout.scss */
 .table-wrap thead tr:first-child th {
   padding: 16px 15px;
 }
-/* line 153, ../sass/_layout.scss */
+/* line 150, ../sass/_layout.scss */
 .table-wrap thead tr:nth-child(2) {
   background: #6e99b7;
 }
-/* line 155, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 .table-wrap thead tr:nth-child(2) th {
   padding: 12px 15px;
 }
-/* line 159, ../sass/_layout.scss */
+/* line 156, ../sass/_layout.scss */
 .table-wrap .sort {
   width: 20px;
   height: 20px;
@@ -8979,7 +8973,7 @@ header.navbar.navbar-default {
   display: block;
   float: right;
 }
-/* line 166, ../sass/_layout.scss */
+/* line 163, ../sass/_layout.scss */
 .table-wrap .settings {
   width: 20px;
   height: 20px;
@@ -8989,13 +8983,13 @@ header.navbar.navbar-default {
   margin-left: 15px;
 }
 
-/* line 176, ../sass/_layout.scss */
+/* line 173, ../sass/_layout.scss */
 .leftpanel {
   background: #172f41;
   height: calc(100vh - 60px);
 }
 
-/* line 181, ../sass/_layout.scss */
+/* line 178, ../sass/_layout.scss */
 .right-content-box {
   border: 1px solid #ebecee;
   border-radius: 3px;
@@ -9006,25 +9000,25 @@ header.navbar.navbar-default {
   overflow: auto;
 }
 
-/* line 189, ../sass/_layout.scss */
+/* line 186, ../sass/_layout.scss */
 .right-panel .right-content-box {
   display: none;
 }
-/* line 191, ../sass/_layout.scss */
+/* line 188, ../sass/_layout.scss */
 .right-panel .right-content-box.active {
   display: block;
 }
 
-/* line 196, ../sass/_layout.scss */
+/* line 193, ../sass/_layout.scss */
 .nav.nav-tabs {
   background: #2f81b9;
   border-bottom: 1px solid #ebecee;
 }
-/* line 199, ../sass/_layout.scss */
+/* line 196, ../sass/_layout.scss */
 .nav.nav-tabs li {
   margin: 0;
 }
-/* line 202, ../sass/_layout.scss */
+/* line 199, ../sass/_layout.scss */
 .nav.nav-tabs li a {
   color: #fff;
   border-radius: 0px;
@@ -9034,21 +9028,21 @@ header.navbar.navbar-default {
   margin: 0;
   padding: 8px 14px;
 }
-/* line 208, ../sass/_layout.scss */
+/* line 205, ../sass/_layout.scss */
 .nav.nav-tabs li a:hover {
   border: none;
 }
-/* line 212, ../sass/_layout.scss */
+/* line 209, ../sass/_layout.scss */
 .nav.nav-tabs li.active a {
   color: #2f81b9;
   border: none;
 }
 
-/* line 217, ../sass/_layout.scss */
+/* line 214, ../sass/_layout.scss */
 .select-items {
   margin-bottom: 40px;
 }
-/* line 219, ../sass/_layout.scss */
+/* line 216, ../sass/_layout.scss */
 .select-items span {
   display: block;
   color: #2a2a2c;
@@ -9056,24 +9050,24 @@ header.navbar.navbar-default {
   font-weight: 600;
   margin-bottom: 5px;
 }
-/* line 226, ../sass/_layout.scss */
+/* line 223, ../sass/_layout.scss */
 .select-items .checkbox-inline {
   margin: 0 20px 10px 0;
   font-size: 14px;
 }
 
-/* line 231, ../sass/_layout.scss */
+/* line 228, ../sass/_layout.scss */
 label {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 
-/* line 237, ../sass/_layout.scss */
+/* line 234, ../sass/_layout.scss */
 .form-group label {
   color: #2a2a2c;
   font-size: 16px;
 }
-/* line 241, ../sass/_layout.scss */
+/* line 238, ../sass/_layout.scss */
 .form-group .form-control {
   border: 1px solid #cccccc;
   resize: none;
@@ -9081,14 +9075,14 @@ label {
   box-shadow: none;
 }
 
-/* line 248, ../sass/_layout.scss */
+/* line 245, ../sass/_layout.scss */
 .tab-content {
   padding: 20px 0;
   clear: both;
   overflow: auto;
 }
 
-/* line 253, ../sass/_layout.scss */
+/* line 250, ../sass/_layout.scss */
 .btn-submit {
   background: #2f81b9;
   font-size: 14px;
@@ -9096,13 +9090,13 @@ label {
   padding: 11px 15px;
   color: #fff;
 }
-/* line 259, ../sass/_layout.scss */
+/* line 256, ../sass/_layout.scss */
 .btn-submit:hover {
   background: #0c88dc;
   color: #fff;
 }
 
-/* line 265, ../sass/_layout.scss */
+/* line 262, ../sass/_layout.scss */
 .prev-next {
   float: right;
   font-size: 0;
@@ -9111,7 +9105,7 @@ label {
   -webkit-border-radius: 3px;
   overflow: hidden;
 }
-/* line 270, ../sass/_layout.scss */
+/* line 267, ../sass/_layout.scss */
 .prev-next a {
   background: #2f81b9;
   display: inline-block;
@@ -9120,36 +9114,36 @@ label {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 277, ../sass/_layout.scss */
+/* line 274, ../sass/_layout.scss */
 .prev-next a:hover {
   background-color: #0c88dc;
 }
-/* line 280, ../sass/_layout.scss */
+/* line 277, ../sass/_layout.scss */
 .prev-next a.disabled {
   opacity: 0.3;
   cursor: default;
 }
-/* line 285, ../sass/_layout.scss */
+/* line 282, ../sass/_layout.scss */
 .prev-next .prev {
   background-image: url(../images/icon/icon-prev.png);
   border-right: 1px solid #5bafe8;
 }
-/* line 289, ../sass/_layout.scss */
+/* line 286, ../sass/_layout.scss */
 .prev-next .next {
   background-image: url(../images/icon/icon-next.png);
 }
 
-/* line 294, ../sass/_layout.scss */
+/* line 291, ../sass/_layout.scss */
 .leftMenu {
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-/* line 298, ../sass/_layout.scss */
+/* line 295, ../sass/_layout.scss */
 .leftMenu li {
   border-bottom: solid 1px rgba(47, 129, 185, 0.15);
 }
-/* line 300, ../sass/_layout.scss */
+/* line 297, ../sass/_layout.scss */
 .leftMenu li a {
   padding: 10px 14px 9px;
   display: block;
@@ -9159,11 +9153,11 @@ label {
   white-space: nowrap;
   text-align: center;
 }
-/* line 308, ../sass/_layout.scss */
+/* line 305, ../sass/_layout.scss */
 .leftMenu li a span {
   display: none;
 }
-/* line 311, ../sass/_layout.scss */
+/* line 308, ../sass/_layout.scss */
 .leftMenu li a i {
   width: 27px;
   height: 24px;
@@ -9172,51 +9166,51 @@ label {
   position: relative;
   float: none;
 }
-/* line 318, ../sass/_layout.scss */
+/* line 315, ../sass/_layout.scss */
 .leftMenu li a i.icon-home {
   background: url(../images/icon/home-icon.png) no-repeat;
 }
-/* line 321, ../sass/_layout.scss */
+/* line 318, ../sass/_layout.scss */
 .leftMenu li a i.icon-compass {
   background: url(../images/icon/compass-icon.png) no-repeat;
 }
-/* line 324, ../sass/_layout.scss */
+/* line 321, ../sass/_layout.scss */
 .leftMenu li a i.icon-round {
   background: url(../images/icon/round-icon.png) no-repeat;
 }
-/* line 327, ../sass/_layout.scss */
+/* line 324, ../sass/_layout.scss */
 .leftMenu li a i.icon-at {
   background: url(../images/icon/at-icon.png) no-repeat;
 }
-/* line 330, ../sass/_layout.scss */
+/* line 327, ../sass/_layout.scss */
 .leftMenu li a i.icon-info {
   background: url(../images/icon/info-icon.png) no-repeat;
 }
-/* line 333, ../sass/_layout.scss */
+/* line 330, ../sass/_layout.scss */
 .leftMenu li a i.icon-notification {
   background: url(../images/icon/notification-icon.png) no-repeat;
 }
-/* line 336, ../sass/_layout.scss */
+/* line 333, ../sass/_layout.scss */
 .leftMenu li a i.icon-chat {
   background: url(../images/icon/icon-chat.png) no-repeat;
 }
-/* line 340, ../sass/_layout.scss */
+/* line 337, ../sass/_layout.scss */
 .leftMenu li a:hover, .leftMenu li a.active {
   opacity: 1;
   background: rgba(47, 129, 185, 0.1);
 }
-/* line 345, ../sass/_layout.scss */
+/* line 342, ../sass/_layout.scss */
 .leftMenu li.active a {
   opacity: 1;
   background: rgba(47, 129, 185, 0.1);
 }
 
-/* line 354, ../sass/_layout.scss */
+/* line 351, ../sass/_layout.scss */
 tr.file-link :hover {
   cursor: pointer;
 }
 
-/* line 361, ../sass/_layout.scss */
+/* line 358, ../sass/_layout.scss */
 .copyRight {
   display: none;
   color: #fff;
