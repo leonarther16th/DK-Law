@@ -8821,7 +8821,7 @@ body {
 /* line 44, ../sass/_layout.scss */
 h2 {
   font-size: 24px;
-  color: #000;
+  color: #172f41;
   font-weight: 700;
   margin-bottom: 25px;
   margin-top: 30px;
@@ -9214,6 +9214,19 @@ tr.file-link :hover {
 .copyRight {
   display: none;
   color: #fff;
+}
+
+/* line 363, ../sass/_layout.scss */
+.last-saved {
+  color: #84b1d3;
+  font-size: 9px;
+  font-weight: thin;
+  padding: 5px 0 5px 5px;
+}
+
+/* line 371, ../sass/_layout.scss */
+.item-done {
+  background-color: #1c3a50;
 }
 
 @media (max-width: 480px) {

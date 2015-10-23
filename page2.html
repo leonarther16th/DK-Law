@@ -41,9 +41,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">PREPARE</a></li>
-            <li><a href="#">WRAP-UP</a></li>
-            <li><a href="#">DOWNLOAD</a></li>
+            <li class="active"><a href="#">Work Mode</a></li>
+            <li><a href="#">Review Mode</a></li>
+            <!--<li><a href="#">DOWNLOAD</a></li>-->
           </ul>
         </div><!--/.nav-collapse -->
       <!--</div>-->
@@ -56,7 +56,7 @@
              <aside class="leftpanel col-xs-2 col-sm-3">
              	<div class="row">
 					<ul class="leftMenu" role="tablist">
-						<li role="presentation" class="active">
+						<li role="presentation" class="active item-done">
 							<a href="#home" aria-controls="home" role="tab" data-toggle="tab">
 							<i class="icon-home"></i><span>ITEM | 01</span></a>
 						</li>
@@ -76,7 +76,10 @@
             		</div>
              	</div>
              </aside>
+
              <section class="right-panel col-xs-10 col-sm-9">
+             <h2>Project Name</h2>
+
                 <div class="right-content-box active" role="tabpanel" id="home">
 					 <div class="tab-head">
 						  <ul class="nav nav-tabs tabs-menu">
@@ -156,11 +159,16 @@
                                 </label>
                           </div>
                           <div class="col-sm-12">
-                              <button class="btn btn-submit">Save and Exit</button>
+                              <button class="btn btn-submit">Save</button> 
+                               <span class="last-saved">last saved 25 minutes ago.</span>
+                               
+                               <!-- REMOVING THE ARROWS
                               <div class="prev-next tabs-menu">
                                  	<a href="#" class="prev disabled"></a>
                                   <a href="#section2" class="next sec2"></a>
                               </div>
+                              -->
+
                           </div>
                         </form>
                     </div>
@@ -204,11 +212,14 @@
 							  </div>
 							  
 							  <div class="col-sm-12">
-								  <button class="btn btn-submit">Save and Exit</button>
+								  <button class="btn btn-submit">Save</button>
+                  <span class="last-saved">last saved 25 minutes ago.</span>
+
+                  <!--
 								  <div class="prev-next tabs-menu" role="tablist">
 									  <a href="#section1" class="prev sec1"></a>
-									 <!-- <a href="#section2" class="next"></a>-->
-								  </div>
+									<a href="#section2" class="next"></a>
+								  </div>-->
 							  </div>
 							</form>
                     </div>
@@ -295,11 +306,10 @@
                                 </label>
                           </div>
                           <div class="col-sm-12">
-                              <button class="btn btn-submit">Save and Exit</button>
-                              <div class="prev-next tabs-menu2">
-                                 	<a href="#" class="prev disabled"></a>
-                                  <a href="#comp2" class="next comp2"></a>
-                              </div>
+                              <button class="btn btn-submit">Save</button>
+                              <span class="last-saved">last saved 25 minutes ago.</span>
+
+                              
                           </div>
                         </form>
                     </div>
@@ -343,11 +353,9 @@
 							  </div>
 							  
 							  <div class="col-sm-12">
-								  <button class="btn btn-submit">Save and Exit</button>
-								  <div class="prev-next tabs-menu2" role="tablist">
-									  <a href="#comp1" class="prev comp1"></a>
-									 <!-- <a href="#section2" class="next"></a>-->
-								  </div>
+								  <button class="btn btn-submit">Save</button>
+                  <span class="last-saved">last saved 25 minutes ago.</span>
+								  
 							  </div>
 							</form>
                     </div>

@@ -43,7 +43,7 @@ body{
 }
 h2{
     font-size:24px;
-    color:#000;
+    color:$darken-primary-color;
     font-weight:700;
     margin-bottom:25px;
     margin-top:30px;
@@ -358,4 +358,17 @@ tr.file-link{
 .copyRight{
 	display: none;
     color: #fff;
+}
+
+.last-saved{
+    color: lighten($darken-primary-color,50);
+    font-size: 9px;
+    font-weight: thin;
+    //font-style: italic;
+    padding: 5px 0 5px 5px;
+}
+
+.item-done{
+    background-color: lighten($darken-primary-color, 4);
+
 }
