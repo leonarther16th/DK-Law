@@ -171,8 +171,13 @@ header.navbar.navbar-default{
 }
 
 .leftpanel{
-    background:$bg-leftpanel;
-    height:calc(100vh - 60px); 
+    // background:$bg-leftpanel;
+    // height:calc(100vh - 60px);
+    margin-top: 60px;
+    border-radius: 5px; 
+    max-width: 150px;
+    margin-left: -150px;
+
 }
 
 .right-content-box{
@@ -288,17 +293,31 @@ label{
     }
 }
 
+
+.left-menu-item{
+    border-radius: 5px 0 0 5px;
+
+}
+
 .leftMenu{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+    border-radius: 5px 0 0 5px;
+
 	li{
-		border-bottom: solid 1px rgba($primary-color, 0.15);
+		//border-bottom: solid 1px rgba($primary-color, 0.15);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+        margin-bottom: 5px;
+        
 		a{
 			padding: 10px 14px 9px;
+            border-radius: 5px 0 0 5px !important;
 			display: block;
-			opacity: 0.5;
+			//opacity: 0.5;
 			color: #ffffff;
+            background-color: $primary-color;
 			line-height: 25px;
 			white-space: nowrap;
 			text-align: center;
@@ -336,12 +355,12 @@ label{
 			}
 			&:hover, &.active{
 				opacity: 1;
-				background: rgba($primary-color, 0.1);
+				background: darken($primary-color, 20);
 			}
 		}
 		&.active a{
 			opacity: 1;
-			background: rgba($primary-color, 0.1);
+			background: darken($primary-color, 20);
 		}
 	}
 }
@@ -371,4 +390,37 @@ tr.file-link{
 .item-done{
     background-color: lighten($darken-primary-color, 4);
 
+}
+
+.footer{
+    background-color: $darken-primary-color;
+    padding: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    //font-size: 0.7em !important;
+    color: #ffffff;
+
+    .social{
+        font-size: 1.4em;
+        padding-bottom: 2px;
+    }
+
+    a{
+        color: #ffffff;
+        padding-top: 2px;
+        font-size: 0.7em
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    p{
+        font-size: 0.7em;
+        color: #ffffff;
+        margin: 0px;
+    }
 }
