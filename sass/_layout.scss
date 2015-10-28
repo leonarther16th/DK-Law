@@ -87,7 +87,7 @@ header.navbar.navbar-default{
     padding:0 15px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-    background:#f5f9fc;
+    background:$gray-bluesh;
     color:#8c959d;
 }
 .navbar-default .navbar-nav > li > a{
@@ -109,7 +109,8 @@ header.navbar.navbar-default{
 }
 
 .content-area{
-    padding:50px 15px;
+    padding:20px 15px;
+
 }
 .content-area.no-padd{
     padding-left:0;
@@ -170,13 +171,29 @@ header.navbar.navbar-default{
 	}
 }
 
+
+.project-title{
+    background-color: lighten($dark-gray,4);
+    color: $dark-blue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 60px;
+    border-bottom: 1px solid #e6e9ea;
+    //box-shadow: 0 0 1px rgba(34, 25, 25, 0.4);
+
+    b{
+        font-size: 1.3em;
+    }
+}
+
 .leftpanel{
     // background:$bg-leftpanel;
     // height:calc(100vh - 60px);
     margin-top: 60px;
     border-radius: 5px; 
     max-width: 150px;
-    margin-left: -150px;
+
+    //margin-left: -150px;
 
 }
 
@@ -259,7 +276,7 @@ label{
     padding:11px 15px;
     color:#fff;
     &:hover{
-        background:saturate( $primary-color, 30% );
+        background: $dark-blue;
         color:#fff;
     }
 }
