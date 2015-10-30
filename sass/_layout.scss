@@ -94,6 +94,15 @@ header.navbar.navbar-default{
 .navbar-default .navbar-nav > li > a{
     color:#92989e;
 }
+
+.nav{
+ li {
+  a:hover{
+    background-color: darken($primary-color,10);
+  }
+}
+}
+
 .logo{
     margin:13px 0 0 0;  
     float:left;
