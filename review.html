@@ -8,8 +8,10 @@
     <title>Law Applications | Review</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
     <!-- Bootstrap -->
     <link href="stylesheets/screen.css" rel="stylesheet">
+    <link type="text/css" href="http://csshake.surge.sh/csshake.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -99,7 +101,7 @@
                           <a href="#compass" aria-controls="compass" role="tab" data-toggle="tab">
                             <span>Format</span></a>
                           </li>
-                          <li class="left-menu-item active item-done "><a href="javascript:void(0)"><span>Export / Versions</span></a></li>
+                          <li class="left-menu-item active"><a href="#export" role="tab" data-toggle="tab"><span>Export / Versions</span></a></li>
                           
                         </ul>
                         
@@ -111,7 +113,7 @@
                         <div class="row">
                           <div class="col-lg-3">
                             <legend>Export Project</legend>
-                            <button class="btn btn-lg btn-success"><i class="fa fa-file-pdf-o"></i> Generate PDF</button>
+                            <button class="btn btn-md btn-primary"><i class="fa fa-file-pdf-o"></i> Generate PDF</button>
 
                           </div>
                         </div>
@@ -136,12 +138,12 @@
                                 </thead>
                                 <tbody>
                                   <tr class="file-link">
-                                    <td>1</td>
+                                    <td>5</td>
                                     <td>November 22, 2015 12:34PM</td>
                                     
                                   </tr>
                                   <tr class="file-link">
-                                    <td>2</td>
+                                    <td>4</td>
                                     <td>November 21, 2015 02:33PM</td>
                                     
                                   </tr>
@@ -151,12 +153,12 @@
                                     
                                   </tr>
                                   <tr class="file-link">
-                                    <td>4</td>
+                                    <td>2</td>
                                     <td>November 10, 2015 04:04PM</td>
                                     
                                   </tr>
                                   <tr class="file-link">
-                                    <td>5</td>
+                                    <td>1</td>
                                     <td>November 09, 2015 07:10PM</td>
                                     
                                   </tr>
@@ -168,32 +170,36 @@
                           </div>
                           <div class="col-lg-6">
                             <legend>Compare</legend>
-                            <form>
+                            
 
-                              <div class="form-group">
-                                <label for="exampleInputFile">Original</label>
-                                <select name="" id="" class="form-control"><option>Please Select</option> </select>
+                              <div class="">
+                                <b>Original</b><br><br>
+                                <div class="well version-selection not-selected-version-well">
+                                  Nothing selected yet!
+                                </div>
                                 
                               </div>
 
-                              <div class="form-group">
-                                <label for="exampleInputFile">Revised</label>
-                                <input type="file" id="exampleInputFile">
+                              <div class="">
+                                <b>Revised</b><br><br>
+                                <div class="well version-selection not-selected-version-well">
+                                  Nothing selected yet!
+                                </div>
                                 
                               </div>
                               
-                            </form>
+                           
 
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-lg-6">
                             <br>
-                            <button class="btn btn-sm btn-danger"><i class="fa fa-undo"></i> Retrieve</button>
+                            <button class="btn btn-md btn-warning"><i class="fa fa-undo"></i> Retrieve</button>
                           </div>
                           <div class="col-lg-6">
                             <br>
-                            <button class="btn btn-sm btn-success"><i class="fa fa-plus-circle"></i> Generate Redline</button>
+                            <button class="btn btn-md btn-primary"><i class="fa fa-plus-circle"></i> Generate Redline</button>
                           </div>
                         </div>
                         
@@ -222,6 +228,7 @@
               <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
               <script src="javascripts/bootstrap.min.js"></script>
+              <script src="javascripts/compareVersions.js"></script>
               <script>
               $(window).on("load resize",function(e){
               var newHeight = $(document).height() - 50;

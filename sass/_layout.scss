@@ -239,6 +239,7 @@ header.navbar.navbar-default{
         border:none;
         margin: 0;
         padding:8px 14px;
+        font-size: 12px !important;
         &:hover{
             border:none;
         }
@@ -283,6 +284,7 @@ label{
     padding:20px 0;
     clear: both;
     overflow: auto;
+    min-height: 550px;
 }
 .btn-submit{
     background:$primary-color;
@@ -344,7 +346,7 @@ label{
         margin-bottom: 5px;
         
 		a{
-			padding: 10px 14px 9px;
+			padding: 9px !important;
             border-radius: 5px 0 0 5px !important;
 			display: block;
 			//opacity: 0.5;
@@ -353,6 +355,7 @@ label{
 			line-height: 25px;
 			white-space: nowrap;
 			text-align: center;
+            font-size: 12px;
 			span{
 				display: none;
 			}
@@ -460,4 +463,27 @@ tr.file-link{
 legend{
     padding-bottom: 10px;
     color:$dark-blue;
+}
+
+.version-selection{
+    background-color: $gray-bluesh;
+    border: 1px dashed #e3e3e3;
+    box-shadow: none;
+    padding: 8px !important;
+    
+}
+
+.selected-version{
+    background-color: $gray-bluesh;
+    border: 1px dashed #e3e3e3;
+
+}
+
+.selectable{
+    cursor: pointer;
+}
+.selected-version-well{
+    background-color: lighten($dark-background,30);
+    color: white;
+    border: none;
 }
