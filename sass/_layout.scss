@@ -152,13 +152,13 @@ header.navbar.navbar-default{
     thead tr th{
         color:#fff;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 400;
     }
     thead tr:first-child{
         background:$primary-color;
-        font-size:16px; 
+        font-size:14px;
         th{
-            padding:16px 15px;
+            padding:10px;
         }
     }
     thead tr:nth-child(2){
@@ -473,17 +473,28 @@ legend{
     
 }
 
-.selected-version{
+
+.selected-version-row{
     background-color: $gray-bluesh;
     border: 1px dashed #e3e3e3;
 
 }
 
-.selectable{
+.selectable, .selectable-version-place-holder{
     cursor: pointer;
 }
-.selected-version-well{
+.selected-version-place-holder{
     background-color: lighten($dark-background,30);
     color: white;
     border: none;
+}
+.panel-no-padding{
+  padding: 0;
+}
+.panel-textarea{
+  border: none;
+}
+
+.small-print{
+  color: $gray-light;
 }

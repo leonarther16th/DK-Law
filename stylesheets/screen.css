@@ -8954,16 +8954,16 @@ header.navbar.navbar-default {
 .table-wrap thead tr th {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
 }
 /* line 157, ../sass/_layout.scss */
 .table-wrap thead tr:first-child {
   background: #3079AB;
-  font-size: 16px;
+  font-size: 14px;
 }
 /* line 160, ../sass/_layout.scss */
 .table-wrap thead tr:first-child th {
-  padding: 16px 15px;
+  padding: 10px;
 }
 /* line 164, ../sass/_layout.scss */
 .table-wrap thead tr:nth-child(2) {
@@ -9312,22 +9312,37 @@ legend {
   padding: 8px !important;
 }
 
-/* line 476, ../sass/_layout.scss */
-.selected-version {
+/* line 477, ../sass/_layout.scss */
+.selected-version-row {
   background-color: #f5f9fc;
   border: 1px dashed #e3e3e3;
 }
 
-/* line 482, ../sass/_layout.scss */
-.selectable {
+/* line 483, ../sass/_layout.scss */
+.selectable, .selectable-version-place-holder {
   cursor: pointer;
 }
 
-/* line 485, ../sass/_layout.scss */
-.selected-version-well {
+/* line 486, ../sass/_layout.scss */
+.selected-version-place-holder {
   background-color: #3f81b2;
   color: white;
   border: none;
+}
+
+/* line 491, ../sass/_layout.scss */
+.panel-no-padding {
+  padding: 0;
+}
+
+/* line 494, ../sass/_layout.scss */
+.panel-textarea {
+  border: none;
+}
+
+/* line 498, ../sass/_layout.scss */
+.small-print {
+  color: #777777;
 }
 
 @media (max-width: 480px) {
@@ -10804,4 +10819,71 @@ legend {
 /* line 1, ../sass/_shack.scss */
 .shake-chunk:hover, .shake-trigger:hover .shake-chunk, .shake-chunk.shake-freeze, .shake-chunk.shake-constant {
   animation: shake-chunk 4s ease-in-out infinite;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -moz-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  60% {
+    -moz-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  60% {
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  40% {
+    -moz-transform: translateX(-30px);
+    -ms-transform: translateX(-30px);
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+  }
+  60% {
+    -moz-transform: translateX(-15px);
+    -ms-transform: translateX(-15px);
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
+  }
+}
+/* line 51, ../sass/_bounce.scss */
+.arrow {
+  width: 20px;
+  height: 20px;
+  float: right;
+  padding: 5px;
+  background-color: #00b3ee;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+  color: black;
+}
+
+/* line 67, ../sass/_bounce.scss */
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }

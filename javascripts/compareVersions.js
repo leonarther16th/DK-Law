@@ -15,11 +15,11 @@ var comapreEngine = function(){
 
 			/* make the well shack and chabge its text */
 			versionWells.toggleClass('shake-little shake-constant selectable');
-			versionWells.text('Click here to add!');
+			versionWells.html('<i class="fa fa-arrow-circle-right"></i> Click here to add!');
 
             // adding a click event on the well
 			versionWells.click(function(){
-				$(this).text('Version ' + selectedVerstion + ' has been selected!');
+				$(this).html('<i class="fa fa-check-circle"></i> Version ' + selectedVerstion + ' selected!');
 				$(this).removeClass('not-selected-version-well');
 				$(this).addClass('selected-version-well');
                 $(this).unbind( 'click' );

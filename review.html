@@ -137,28 +137,28 @@
                                   </tr>
                                 </thead>
                                 <tbody>
-                                  <tr class="file-link">
-                                    <td>5</td>
+                                  <tr class="file-link" data-version="5">
+                                    <td class="version-number">5</td>
                                     <td>November 22, 2015 12:34PM</td>
                                     
                                   </tr>
-                                  <tr class="file-link">
-                                    <td>4</td>
+                                  <tr class="file-link" data-version="4">
+                                    <td class="version-number">4</td>
                                     <td>November 21, 2015 02:33PM</td>
                                     
                                   </tr>
-                                  <tr class="file-link">
-                                    <td>3</td>
+                                  <tr class="file-link" data-version="3">
+                                    <td class="version-number">3</td>
                                     <td>November 13, 2015 09:34AM</td>
                                     
                                   </tr>
-                                  <tr class="file-link">
-                                    <td>2</td>
+                                  <tr class="file-link" data-version="2">
+                                    <td class="version-number">2</td>
                                     <td>November 10, 2015 04:04PM</td>
                                     
                                   </tr>
-                                  <tr class="file-link">
-                                    <td>1</td>
+                                  <tr class="file-link" data-version="1">
+                                    <td class="version-number">1</td>
                                     <td>November 09, 2015 07:10PM</td>
                                     
                                   </tr>
@@ -174,16 +174,17 @@
 
                               <div class="">
                                 <b>Original</b><br><br>
-                                <div class="well version-selection not-selected-version-well">
-                                  Nothing selected yet!
+
+                                <div class="well version-selection not-selected-version-well version-place-holder">
+                                  Nothing selected yet!<br><small class="small-print"><em>Please select version from the table on the left!</em></small>
                                 </div>
                                 
                               </div>
 
                               <div class="">
                                 <b>Revised</b><br><br>
-                                <div class="well version-selection not-selected-version-well">
-                                  Nothing selected yet!
+                                <div class="well version-selection not-selected-version-well version-place-holder">
+                                  Nothing selected yet!<br><small class="small-print"><em>Please select version from the table on the left!</em></small>
                                 </div>
                                 
                               </div>
@@ -228,7 +229,9 @@
               <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
               <script src="javascripts/bootstrap.min.js"></script>
-              <script src="javascripts/compareVersions.js"></script>
+            <!--  <script src="javascripts/compareVersions.js"></script>
+              <script src="javascripts/compare.js"></script>-->
+            <script src="javascripts/compare.2.0.js"></script>
               <script>
               $(window).on("load resize",function(e){
               var newHeight = $(document).height() - 50;
