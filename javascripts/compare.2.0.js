@@ -2,7 +2,7 @@
  * Created by MoeKatib on 15-11-07.
  */
 
-var CompareModule = function() {
+var CompareModule = function () {
     var s,
         versions = {
 
@@ -42,7 +42,7 @@ var CompareModule = function() {
                     $(this).addClass(s.selectedRowClassName);
 
                     /* checking if a selection already happened and if so immediately assign the remaining place holder to the version */
-                    if (s.selectionCounter == 1) {
+                    if (s.selectionCounter === 1) {
                         _self.selectPlaceHolder(s.placeHolders);
 
                     }

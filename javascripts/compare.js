@@ -3,12 +3,11 @@
  */
 
 
-(function(){
+(function () {
     "use strict";
 
-    var root = this;
-
-    var Trigger = function(version){
+    var root = this,
+        Trigger = function (version){
         this._self = this;
         this.version = version;
     };
