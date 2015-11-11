@@ -1,6 +1,7 @@
 /**
  * Created by MoeKatib on 15-11-07.
  */
+'use strict';
 
 var CompareModule = function () {
     var s,
@@ -55,10 +56,11 @@ var CompareModule = function () {
 
             selectPlaceHolder: function (placeHolder) {
                 var _self = this;
-                console.log(this);
-                $(placeHolder).html('Version ' + s.activeVersion + ' has been selected!')
-                $(placeHolder).removeClass(s.placeHolderClassName);
-                $(placeHolder).addClass(s.selectedPlaceHolderClassName);
+                var _placeHolder = $(placeHolder);
+                // console.log(this);
+                _placeHolder.html('Version ' + s.activeVersion + ' has been selected!');
+                _placeHolder.removeClass(s.placeHolderClassName);
+                _placeHolder.addClass(s.selectedPlaceHolderClassName);
                 s.selectionCounter++;
                 _self.resetPlaceHolder();
             },
