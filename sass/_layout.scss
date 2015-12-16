@@ -107,7 +107,7 @@ header.navbar.navbar-default {
 }
 
 .logo {
-  margin: 13px 0 0 0;
+  margin: -10px;
   float: left;
   img {
     width: 80%;
@@ -508,4 +508,13 @@ legend {
 
 .small-print {
   color: $gray-light;
+}
+
+.vertical-menu-container{
+  display: flex;
+  flex-direction: column ;
+  align-items: stretch;
+    align-content: space-around;;
+
+
 }

@@ -54,6 +54,50 @@ for (var i = 0; i < triggers.length; i++) {
 }
 
 
+$( document ).ready(function(){
+
+    var sendButton = $("#send-button");
+
+    sendButton.hide();
+
+    var start_date = $("#P193_START_DATE");
+    var end_date = $("#P193_END_DATE");
+
+    var bindAction = function() {
+
+        start_date.change(bindButtonAction());
+        end_date.change(bindButtonAction());
+
+    };
+
+
+    var checkSelection = function(){
+
+        if (start_date.val() === '' || end_date.val() === ''){
+            return false;
+        }
+        else {
+            return true;
+        }
+    };
+
+    var bindButtonAction = function(){
+        if (checkSelection()) {
+            sendButton.show();
+        }
+        else {
+            sendButton.hide();
+        }
+
+
+    };
+
+    bindAction();
+
+});
+
+
+
 
 
 
